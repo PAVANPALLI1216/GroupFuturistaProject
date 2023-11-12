@@ -1,0 +1,806 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="paragraph" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <div><img src="logo.png"></div>
+   <link rel="stylesheet" href="perfect.css">
+
+   
+
+   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.5,
+      };
+  
+      var observer = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, options);
+  
+      
+      observer.observe(document.getElementById("think"));
+      
+      observer.observe(document.getElementById("pic1"));
+
+      observer.observe(document.getElementById("pic2"));
+
+      observer.observe(document.getElementById("pic3"));
+
+      observer.observe(document.getElementById("paragraph"));
+
+      observer.observe(document.getElementById("text"));
+
+      observer.observe(document.getElementById("Time"));
+
+      observer.observe(document.getElementById("date"));
+
+      observer.observe(document.getElementById("FSM"));
+
+      observer.observe(document.getElementById("expect"));
+
+      observer.observe(document.getElementById("info"));
+
+      observer.observe(document.getElementById("digital"));
+
+      observer.observe(document.getElementById("cardinfo"));
+
+      observer.observe(document.getElementById("digitalpic"));
+
+      observer.observe(document.getElementById("panel"));
+
+observer.observe(document.getElementById("cardinfo2"));
+
+observer.observe(document.getElementById("discussion"));
+
+observer.observe(document.getElementById("network"));
+
+observer.observe(document.getElementById("cardinfo3"));
+
+observer.observe(document.getElementById("networkpic"));
+
+observer.observe(document.getElementById("virtual"));
+
+observer.observe(document.getElementById("cardinfo4"));
+
+observer.observe(document.getElementById("virtualpic"));
+
+observer.observe(document.getElementById("webinar"));
+
+
+observer.observe(document.getElementById("content"));
+
+observer.observe(document.getElementById("knowledge"));
+
+observer.observe(document.getElementById("ks"));
+
+
+observer.observe(document.getElementById("industry"));
+
+
+observer.observe(document.getElementById("il"));
+
+
+
+observer.observe(document.getElementById("Attendees"));
+
+observer.observe(document.getElementById("as"));
+
+observer.observe(document.getElementById("ds"));
+
+observer.observe(document.getElementById("dp"));
+
+observer.observe(document.getElementById("matter"));
+
+
+observer.observe(document.getElementById("ff"));
+
+observer.observe(document.getElementById("button1"));
+
+observer.observe(document.getElementById("card1"));
+
+
+observer.observe(document.getElementById("gg"));
+
+
+observer.observe(document.getElementById("button2"));
+
+
+observer.observe(document.getElementById("card2"));
+
+
+
+observer.observe(document.getElementById("hh"));
+
+
+observer.observe(document.getElementById("button3"));
+
+
+observer.observe(document.getElementById("card3"));
+
+observer.observe(document.getElementById("matter"));
+
+observer.observe(document.getElementById("topicwecover"));
+
+observer.observe(document.getElementById("sentence"));
+
+
+observer.observe(document.getElementById("spend"));
+
+observer.observe(document.getElementById("text1"));
+
+observer.observe(document.getElementById("logo1"));
+
+observer.observe(document.getElementById("arrow1"));
+
+observer.observe(document.getElementById("arrow2"));
+
+
+
+observer.observe(document.getElementById("expense"));
+
+observer.observe(document.getElementById("text2"));
+
+observer.observe(document.getElementById("logo2"));
+
+
+
+
+
+observer.observe(document.getElementById("travel"));
+
+observer.observe(document.getElementById("text3"));
+
+observer.observe(document.getElementById("logo3"));
+
+
+
+
+observer.observe(document.getElementById("price"));
+
+observer.observe(document.getElementById("text4"));
+
+observer.observe(document.getElementById("logo4"));
+
+
+
+
+observer.observe(document.getElementById("real"));
+
+observer.observe(document.getElementById("text5"));
+
+observer.observe(document.getElementById("logo5"));
+
+
+
+
+observer.observe(document.getElementById("management"));
+
+observer.observe(document.getElementById("text6"));
+
+observer.observe(document.getElementById("logo6"));
+
+
+
+
+
+
+
+
+
+
+observer.observe(document.getElementById("industries"));
+
+observer.observe(document.getElementById("answer"));
+
+
+
+
+observer.observe(document.getElementById("finance"));
+
+observer.observe(document.getElementById("fp"));
+
+
+
+
+observer.observe(document.getElementById("banking"));
+
+
+
+
+observer.observe(document.getElementById("bk"));
+
+
+
+observer.observe(document.getElementById("is"));
+
+observer.observe(document.getElementById("ins"));
+
+
+
+
+observer.observe(document.getElementById("mf"));
+
+
+
+observer.observe(document.getElementById("mg"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+observer.observe(document.getElementById("who"));
+
+observer.observe(document.getElementById("job"));
+
+
+
+
+observer.observe(document.getElementById("vp"));
+
+
+
+observer.observe(document.getElementById("points"));
+
+
+
+
+observer.observe(document.getElementById("points2"));
+
+
+
+
+
+
+
+
+
+observer.observe(document.getElementById("heading"));
+
+observer.observe(document.getElementById("matter2"));
+
+
+
+
+observer.observe(document.getElementById("biglogo1"));
+
+
+
+observer.observe(document.getElementById("biglogo2"));
+
+
+observer.observe(document.getElementById("biglogo3"));
+
+
+
+
+
+
+
+
+
+
+observer.observe(document.getElementById("heading2"));
+
+observer.observe(document.getElementById("matter3"));
+
+
+
+
+observer.observe(document.getElementById("biglogo4"));
+
+
+
+observer.observe(document.getElementById("heading3"));
+
+
+observer.observe(document.getElementById("matter3"));
+
+
+
+
+
+
+
+observer.observe(document.getElementById("bh"));
+
+
+
+observer.observe(document.getElementById("symbol"));
+
+
+observer.observe(document.getElementById("matter4"));
+
+
+observer.observe(document.getElementById("matter5"));
+
+
+
+observer.observe(document.getElementById("symbol1"));
+
+
+observer.observe(document.getElementById("matter6"));
+
+
+observer.observe(document.getElementById("symbol2"));
+
+
+observer.observe(document.getElementById("matter7"));
+
+
+observer.observe(document.getElementById("symbol3"));
+
+
+
+observer.observe(document.getElementById("matter8"));
+
+
+observer.observe(document.getElementById("symbol4"));
+
+
+
+observer.observe(document.getElementById("matter9"));
+
+
+observer.observe(document.getElementById("symbol5"));
+
+
+
+
+
+
+
+
+
+observer.observe(document.getElementById("fl"));
+
+
+observer.observe(document.getElementById("fi"));
+
+
+
+observer.observe(document.getElementById("fc"));
+
+
+observer.observe(document.getElementById("email"));
+
+
+observer.observe(document.getElementById("fe"));
+
+
+observer.observe(document.getElementById("cf1"));
+
+
+observer.observe(document.getElementById("cf"));
+
+
+
+observer.observe(document.getElementById("cf2"));
+
+
+observer.observe(document.getElementById("nl"));
+
+
+observer.observe(document.getElementById("fp1"));
+
+
+observer.observe(document.getElementById("fp2"));
+
+
+observer.observe(document.getElementById("fp3"));
+
+
+
+observer.observe(document.getElementById("fp4"));
+
+observer.observe(document.getElementById("fp5"));
+
+
+
+observer.observe(document.getElementById("fp6"));
+
+
+
+observer.observe(document.getElementById("inp"));
+
+observer.observe(document.getElementById("email2"));
+
+
+
+observer.observe(document.getElementById("spic"));
+
+
+
+observer.observe(document.getElementById("spic2"));
+
+
+
+observer.observe(document.getElementById("spic3"));
+
+
+
+
+
+
+
+observer.observe(document.getElementById("copy"));
+
+
+
+observer.observe(document.getElementById("sub"));
+
+
+
+
+
+
+    });
+
+
+
+  </script>
+  
+ 
+
+
+
+
+
+</head>
+<body>
+
+    <h3 id="home">Home</h3>
+  
+   <div><h3 id="About">About</h3></div>
+    <div><h3 id="OurEvents">Our Events</h3></div> 
+    <div><h3 id="OurWebinars">Our Webinars</h3></div>
+
+
+
+  
+
+
+    <a href=""><div><h3 id="contactus">CONTACT US</h3></div></a>
+<div><h1 id="text">Future of Spend Management Virtual Summit</h1></div>
+<div><h3 id="FSM">#FSM2023</h3></div>
+<div><h3 id="date">Date: 24th February, 2023</h3></div>
+<div><h3 id="Time">Time - 1000 hrs ET/1500 hrs GMT</h3></div>
+ <a href=""><div><h3 id="reserve">RESERVE YOUR PASS NOW</h3></div></a>
+  <a href=""><div><h3 id="internship">INTERESTED IN SPONSORSHIP</div></a>
+<div id="hello">
+    <h6 id="jeep"></h6>
+
+
+
+<h1 class="animate" id="think">Overview Of Future Of Spend Management Virtual Summit</h1>
+
+  
+
+    <p id="paragraph">Faced with increasing economic uncertainty and the costs
+     associated with the ever-increasing administrative
+      burden, today's business leaders must look inside thei
+      r businesses to accelerate profitability and growth.
+       One way to increase your competitiveness is to
+        implement best-in-class cost management software 
+        as part of your overall business process management 
+        strategy. It can play an important role in increasing
+         productivity, reducing waste and unwanted costs,
+          and creating value through digital transformation.
+           It allows leaders to reduce risk with the visibility 
+           and reliability they need to spend more every day.</p>
+        
+
+           
+           
+           <img  id="pic1" src="image (1).png" alt="">
+
+
+           
+            <div><img id="pic2" src="man.png" alt=""></div>
+            
+          
+           
+
+           <div><img id="pic3" src="shadowman.png" alt=""></div>
+        </div>
+           <h6 id="what"></h6>
+
+           <div><h1 id="expect">What to Expect?</h1></div>
+           <div><h3 id="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue luctus ipsum sagittis, ac mollis eros facilisis.</h3></div>
+
+
+
+           <div><h2 id="digital">Digital Sessions</h2></div>
+           <div><h2 id="panel">Digital Panel Discussions</h2></div>
+           <div><h2 id="network">Digital Network</h2></div>
+           <div><h2 id="virtual">Virtual one to one meeting</h2></div>
+           
+
+           <div><h3 id="cardinfo">Lorem ipsum dolor sit amet, consectetur.</h3></div>
+           <div><h3 id="cardinfo2">Lorem ipsum dolor sit amet, consectetur.</h3></div>
+           <div><h3 id="cardinfo3">Lorem ipsum dolor sit amet, consectetur.</h3></div>
+           <div><h3 id="cardinfo4">Lorem ipsum dolor sit amet, consectetur.</h3></div>
+     
+
+
+         
+           <div><img id="digitalpic" src="digital_session.png" alt=""></div>
+           <div><img id="discussion" src="discussion (1).png" alt=""></div>
+           <div><img id ="networkpic" src="network.png" alt=""></div>
+           <div><img id ="virtualpic" src="virtual.png" alt=""></div>
+    
+
+           <div><h6 id="countdown"></h6></div>
+
+
+           <div><h1 id="webinar">Webinar Highlights</h1></div>
+           <div><h3 id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue luctus ipsum sagittis, ac mollis eros facilisis.</h3></div>
+
+<div><h1 id="knowledge">07+</h1></div>
+<div><h3 id="ks">Knowledge Sessions</h3></div>
+
+<div><h1 id="industry">10+</h1></div>
+<div><h3 id="il">Industry Sessions</h3></div>
+
+<div><h1 id="Attendees">350+</h1></div>
+<div><h3 id="as">Attendees</h3></div>
+<div><h6 id="ds"></h6></div>
+
+<div><h1 id="dp">Discussion Points</h1></div>
+<div><h3 id="matter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue luctus ipsum sagittis, ac mollis eros facilisis.</h3></div>
+
+<div><img id="ff" src="pic1.png" alt=""></div>
+ <a href=""><div><h3 id="button1">Austin</h3></div></a>
+<div><h1 id="card1">Future of Finance</h1></div>
+
+
+<div><img id="gg" src="pic2.png" alt=""></div>
+ <a href=""><div><h3 id="button2">San Francisco</h3></div></a>
+<div><h1 id="card2">Future of Cloud Security</h1></div>
+
+
+<div><img id="hh" src="pic3.png" alt=""></div>
+ <a href=""><div><h3 id="button3">Austin</h3></div></a>
+<div><h1 id="card3">Future of Data Science</h1></div>
+
+<h6 id="features"></h6>
+<h1 id="topicwecover">Topic We Cover</h1>
+
+<h3 id="sentence">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue luctus ipsum sagittis, ac mollis eros facilisis.</h3>
+
+<h1 id="spend">Spend Analytics</h1>
+
+<h3 id="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue </h3>
+
+<img id ="logo1" src="Fill (1).png" alt="">
+<img id="arrow1" src="Vector.png" alt="">
+<img id="arrow2" src="Vector (2).png" alt="">
+
+
+
+
+<h1 id="expense">Expense Categorization</h1>
+
+<h3 id="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue</h3>
+
+<img id ="logo2" src="expense.png" alt="">
+
+
+
+<h1 id="travel">Travel Automation</h1>
+
+<h3 id="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue</h3>
+
+<img id ="logo3" src="travel.png" alt="">
+
+
+
+
+<h1 id="price">Price Intelligence</h1>
+
+<h3 id="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue</h3>
+
+<img id ="logo4" src="intelligence.png" alt="">
+
+
+
+<h1 id="real">Real Time Reporting</h1>
+
+<h3 id="text5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue</h3>
+
+<img id ="logo5" src="realtime.png" alt="">
+
+
+<h1 id="management">Expense Management</h1>
+
+<h3 id="text6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue</h3>
+
+<img id ="logo6" src="management.png" alt="">
+
+<h6 id="ourclients"></h6>
+<h1 id="industries">Industries</h1>
+
+<h3 id="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet augue luctus ipsum sagittis, ac mollis eros facilisis.</h3>
+
+<h3 id="finance">Financial Services</h3>
+<img id="fp" src="financial.png" alt="">
+
+
+<h3 id="banking">Banking</h3>
+<img id="bk" src="banking.png" alt="">
+
+
+<h3 id="is">Insurance</h3>
+<img id="ins" src="insurance.png" alt="">
+
+
+<h3 id="mf">Manufacturing</h3>
+<img id="mg" src="Manufacturing.png" alt="">
+
+<h6 id="client1"></h6>
+
+<h1 id="who">Who Should Attend?</h1>
+
+<h3 id="job">Job Titles</h3>
+
+<h3 id="vp">CXO, VP, Director, Head, Manager & Specialist of -</h3>
+<div id="points">
+<li>Spend Management</li>
+  <li>Expense Management</li>  
+  <li>Expense Management Technology</li>  
+   <li>Strategic Sourcing and Expense Management</li> 
+    <li>Digital Process Transformation and Expense Management</li>
+    <li>Supply Chain Management</li>
+  <li>Cost Management</li>
+
+</div>
+
+<div id="points2">
+
+   <li>Procurement & Supply Chain</li>
+   <li>Expense & Vendor Management</li>
+    <li>Expense Management & Revenue Optimization</li>
+   <li>Expense Analytics and Finance Operations</li> 
+   <li>Enterprise Identity Management</li>
+   <li>Distribution Finance & Enterprise Expense Management</li>
+   <li>Expense Reduction</li>
+
+
+
+</div>
+
+<div>
+  <div><h6 id="client2"></h6></div>
+<h1 id="heading">Expected Speakers</h1>
+
+<div><h3 id="matter2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim est, ornare id tempu</h3></div>
+
+<div><img id="biglogo1" src="biglogo1.png" alt=""></div>
+
+<div><img id="biglogo2" src="image 23.png" alt=""></div>
+
+<div><img id="biglogo3" src="image 6.png" alt=""></div>
+
+
+  
+  </div>
+ 
+
+
+<div><h6 id="frame"></h6></div>
+
+<div id="heading3"><h1>Frequently Asked Questions</h1></div>
+
+<div><h3 id="bh">Where will the event be held?</h3></div>
+   
+
+<a href=""><div><h3 id="symbol">-</h3></div></a>
+
+
+<div><h3 id="matter4">This is an online event. You do not have to travel to any specific location. You can participate from your convenient location. The virtual event is accessible from a computer, mobile and tablet devices.</h3></div>
+
+<div><h3 id="matter5">How do I log-in on the day of the virtual event?</h3></div>
+
+ <a href=""><div><h3 id="symbol1">+</h3></div></a>
+
+<div><h3 id="matter6">Can I invite my colleagues and friends to attend the virtual event?</h3></div>
+
+ <a href=""><div><h3 id="symbol2">+</h3></div></a>
+
+
+<div><h3 id="matter7">Why is BRIX Templates the best Webflow agency?</h3></div>
+
+<a href=""><div><h3 id="symbol3">+</h3></div></a>
+
+
+
+<div><h3 id="matter8">When was Webflow officially launched?</h3></div>
+
+<a href=""><div><h3 id="symbol4">+</h3></div></a>
+
+<div><h3 id="matter9">How do you integrate Jetboost with Webflow?</h3></div>
+
+<a href=""><div><h3 id="symbol5">+</h3></div></a>
+
+
+<div><h6 id="footer"></h6></div>
+
+<img id="fl" src="Rectangle 4341 (1).png" alt="">
+
+<div><h3 id="fi">The 21st century has seen a complete change in the way life operates on this planet. We are at the cusp of the 4th Industrial Revolution that will be based on the code, data or information based social and economic system.</h3></div>
+
+<div><h1 id="fc">Contact Us</h1></div>
+<h3 id="email">Phone: +44 203 432 7761</h3>
+
+<h3 id="fe">Email: jennifer@groupfuturista.com</h3>
+
+<h3 id="cf1">Harju maakond, Kuusalu Vald, </h3>
+
+
+
+<h3 id="cf">Group Futurista OU.</h3>
+
+<h3 id="cf2">Pudisoo Kula, Mannimae, 74626.</h3>
+
+<h1 id="nl">Newsletter</h1>
+
+ <img id="fp1" src="Rectangle 4342 (1).png" alt="">
+ <img id="fp2" src="Rectangle 4343 (1).png" alt="">
+ <img id="fp3" src="Rectangle 4346 (1).png" alt="">
+ <img id="fp4" src="Rectangle 4344 (1).png" alt="">
+ <img id="fp5" src="Rectangle 4345 (1).png" alt="">
+ <img id="fp6" src="Rectangle 4347 (1).png" alt="">
+
+ 
+ <input id="inp" type="text">
+ 
+<h3 id="email2">Email Address</h3>
+
+<hr width="1505px" style=" top: 8700px; position: absolute;border-top: 0.2px solid rgba(255, 255, 255, 1)">
+<hr width="1505px" style=" top: 8813px; position: absolute;border-top: 0.2px solid rgba(255, 255, 255, 1)">
+
+ <img id="spic" src="fb.png" alt="">
+
+<img id="spic3" src="Group 1000001767 (1).png" alt="">
+<h3 id="copy">Copyright © 2020. All rights reserved.</h3>
+ 
+<a href=""><h3 id="sub">Subscribe</h3></a>
+
+<img id="spic2" src="Group 77 (1).png" alt="">
+
+
+
+
+
+<div><h6 id="client3"></h6></div>
+
+<h1 id="heading2">Our Sponsors</h1>
+<h3 id="matter3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim est, ornare id tempu</h3>
+
+<img id="biglogo4" src="image 24.png" alt="">
+
+
+
+
+</body>
+
+</html>
+
